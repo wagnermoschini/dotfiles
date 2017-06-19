@@ -2,6 +2,13 @@
 
 It's under construction, works only on macOS.
 
+## Instalation
+clone this repo on your `$HOME` directory and
+```
+cd ~/dotfiles
+sh init.sh
+```
+
 ### Actual features
 
 - homebrew and cask
