@@ -1,3 +1,6 @@
+# VIM stuffs
+.vim/autoload
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
