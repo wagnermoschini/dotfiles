@@ -42,3 +42,16 @@ chsh -s $(which zsh)
 # Install z
 echo "Installing z"
 git clone https://github.com/rupa/z.git ~/z
+
+####################
+# Vim things
+####################
+echo "Vim plug"
+# vim-plug
+curl -fLo ~/dotfiles.vim/autoload/plug.vim --create-dirs \
+	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# link .vim and vimrc
+echo "vim dir and file links"
+ln -s ~/dotfiles/.vim ~/.vim
+ln -s ~/dotfiles/.vim/vimrc ~/.vimrc
