@@ -1,5 +1,8 @@
 # VIM stuffs
 .vim/autoload
+.vim/plugged
+.vim/.vim
+.vim/.netrwhist
 
 # Folder view configuration files
 .DS_Store
