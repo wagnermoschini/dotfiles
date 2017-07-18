@@ -53,5 +53,9 @@ curl -fLo ~/dotfiles.vim/autoload/plug.vim --create-dirs \
 
 # link .vim and vimrc
 echo "vim dir and file links"
-ln -s ~/dotfiles/.vim ~/.vim
-ln -s ~/dotfiles/.vim/vimrc ~/.vimrc
+ln -sf ~/dotfiles/.vim ~/.vim
+ln -sf ~/dotfiles/.vim/vimrc ~/.vimrc
+
+# link .tmux.conf
+echo "tmux conf link"
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
