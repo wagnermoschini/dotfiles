@@ -33,8 +33,8 @@ echo "node stuffs done"
 # Install oh-my-zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
-# rewrite .zshrc
-yes | cp -rf ~/dotfiles/.zshrc ~/.zshrc
+# link .zshrc
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
 
 # Make ZSH default
 chsh -s $(which zsh)
@@ -56,6 +56,8 @@ echo "vim dir and file links"
 ln -sf ~/dotfiles/.vim ~/.vim
 ln -sf ~/dotfiles/.vim/vimrc ~/.vimrc
 
+
+# TMUX CONF
 # link .tmux.conf
 echo "tmux conf link"
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
