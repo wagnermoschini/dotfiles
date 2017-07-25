@@ -2,7 +2,10 @@ call plug#begin('~/.vim/plugged')
 
 " Color scheme
 Plug 'KeitaNakamura/neodark.vim'
+
+" Airline things
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
@@ -13,11 +16,18 @@ set cursorline             " Find the current line quickly.
 set number                     " Show current line number
 set relativenumber             " Show relative line numbers
 
+set hlsearch
+
 set noshowmode
 set noshowcmd
 
 set laststatus=2
 
 let &t_Co=256 " Explicit 256 color support
+
+" Airline
+let g:airline_theme='papercolor'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 colorscheme neodark
