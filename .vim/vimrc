@@ -2,7 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " Color scheme
 Plug 'KeitaNakamura/neodark.vim'
-Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
