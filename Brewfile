@@ -12,6 +12,9 @@ brew 'zsh-completions'
 brew 'coreutils'
 brew 'findutils'
 
+# pbcopy and pbpaste works on tmux
+brew 'reattach-to-user-namespace'
+
 # Install bash 4
 brew 'bash'
 
