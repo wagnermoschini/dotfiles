@@ -6,7 +6,7 @@
 echo "Vim plug"
 # vim-plug
 curl -fLo ~/dotfiles/.vim/autoload/plug.vim --create-dirs \
-	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	    http://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # link .vim and vimrc
 echo "vim dir and file links"
