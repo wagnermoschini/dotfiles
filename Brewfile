@@ -34,6 +34,7 @@ brew 'wget'
 # Development
 brew 'nvm'
 brew 'yarn', args: ['ignore-dependencies']
+brew 'httpie'
 
 # Apps
 cask 'iterm2'
