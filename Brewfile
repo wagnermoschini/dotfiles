@@ -32,6 +32,7 @@ brew 'trash'
 brew 'wget'
 
 # Development
+brew 'python3'
 brew 'nvm'
 brew 'yarn', args: ['ignore-dependencies']
 brew 'httpie'
