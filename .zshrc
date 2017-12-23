@@ -64,6 +64,9 @@ alias git=hub
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 
+# PYTHON3
+alias python=python3
+
 # User configuration
 
 # ssh
