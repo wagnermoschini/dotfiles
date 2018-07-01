@@ -43,11 +43,13 @@ cask 'iterm2'
 cask 'firefox'
 cask 'google-chrome'
 cask 'webstorm'
+cask 'android-studio'
 cask 'sketch'
 cask 'sketch-toolbox'
 cask 'docker'
 cask 'spotify'
 cask 'skype'
+cask 'slack'
 
 # Fonts
 cask 'font-inconsolata'

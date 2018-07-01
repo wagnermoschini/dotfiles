@@ -72,4 +72,6 @@ alias python=python3
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+export PATH=/opt/loggi/ops/ansible/bin:$PATH
+
 . z/z.sh
