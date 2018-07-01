@@ -30,4 +30,6 @@ sh init.sh
 - sketch / sketch-toolbox
 - docker
 - webstorm
+- android-studio
 - skype
+- slack
