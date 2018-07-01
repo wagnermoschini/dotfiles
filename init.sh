@@ -2,6 +2,10 @@
 
 echo "Setting up..."
 
+# Git things
+git config --global core.autocrlf input
+
+
 # Check for homebrew and install it
 if test ! $(which brew); then
   echo "Installing homebrew"
