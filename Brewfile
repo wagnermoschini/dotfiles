@@ -37,6 +37,7 @@ brew 'nvm'
 brew 'yarn', args: ['ignore-dependencies']
 brew 'httpie'
 brew 'watchman'
+brew 'typescript'
 
 # Apps
 cask 'iterm2'
