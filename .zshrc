@@ -74,4 +74,6 @@ alias python=python3
 
 export PATH=/opt/loggi/ops/ansible/bin:$PATH
 
+sudo launchctl limit maxfiles 65536 200000
+
 . z/z.sh
